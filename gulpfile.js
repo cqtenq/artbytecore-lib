@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build');
+var artbytecoreTasks = require('artbytecore-build');
 
-bitcoreTasks('lib');
+artbytecoreTasks('lib');
