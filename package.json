@@ -1,6 +1,6 @@
 {
   "name": "artbytecore-lib",
-  "version": "0.13.22",
+  "version": "2.3.1",
   "description": "A pure and powerful JavaScript ArtByte library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -11,6 +11,10 @@
     "build": "gulp"
   },
   "contributors": [
+  	{
+       "name": "Lizhi",
+       "email": "cqtenq@gmail.com"
+    },
     {
        "name": "Peter Bushnell",
        "email": "bushsolo@gmail.com"
@@ -61,6 +65,7 @@
     }
   ],
   "keywords": [
+  	"whitecoin",
     "artbyte",
     "bitcoin",
     "transaction",
@@ -79,7 +84,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bushstar/artbytecore-lib.git"
+    "url": "https://github.com/cqtenq/artbytecore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -97,7 +102,7 @@
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
-    "artbytecore-build": "Bushstar/artbytecore-build",
+    "artbytecore-build": "cqtenq/artbytecore-build",
     "sinon": "^1.13.0"
   },
   "license": "MIT"
